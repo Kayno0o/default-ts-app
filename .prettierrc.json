@@ -5,7 +5,6 @@
   "semi": true,
   "endOfLine": "auto",
   "bracketSpacing": true,
-  "tailwindConfig": "./tailwind.config.js",
   "trailingComma": "all",
   "bracketSameLine": false,
   "arrowParens": "always"
