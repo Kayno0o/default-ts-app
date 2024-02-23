@@ -9,7 +9,10 @@
     "dev": "ts-node-dev --respawn ./app/index.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prod": "ts-node ./app/index.ts"
+    "tsc:compile": "tsc -p tsconfig.json",
+    "tsc:run": "node dist/index.js",
+    "tsc:prod": "npm run tsc:compile && npm run tsc:run",
+    "tsc:watch": "tsc -p tsconfig.json --watch"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
